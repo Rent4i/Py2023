@@ -1,3 +1,5 @@
+import random
+import cowsay
 def ask(prompt: str, valid: list[str] = None) -> str:
     word = input()
     while word not in valid:
