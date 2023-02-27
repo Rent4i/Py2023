@@ -37,4 +37,4 @@ def gameplay(ask: callable, inform: callable, words: list[str]) -> int:
         i+=1
        
     
-print(gameplay(ask, inform, ["tongue", "tail", "head", "eyes", "ears", "cows", "bulls"]
+print(gameplay(ask, inform, ["tongue", "tail", "head", "eyes", "ears", "cows", "bulls"]))
